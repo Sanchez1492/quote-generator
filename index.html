@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote of the day</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap" rel="stylesheet">
+
+    <!-- Icon Scout -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+</head>
+<body>
+    <div class="quote-box">
+        <h2>Quote of the day</h2>
+        <blockquote></blockquote>
+        <span></span>
+        <div class="btn-container">
+            <button onclick="getRandomQuote()">New Quote</button>
+            <button id="twitter-btn" onclick="tweet()"><i class="uil uil-twitter"></i>Tweet</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
